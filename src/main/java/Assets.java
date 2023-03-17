@@ -12,14 +12,14 @@ public class Assets {
     }
 
     public void generateAssets(){
-//        createOptimizedToolbarIcon();
-//        createOptimizedSplashBackground();
-//        createOptimizedPoweredByIcon();
+        createOptimizedToolbarIcon();
+        createOptimizedSplashBackground();
+        createOptimizedPoweredByIcon();
         try {
-//            createAllSplashIconVersions();
+            createAllSplashIconVersions();
             createAllLoginIconVersions();
-//            createAllPushIconVersions();
-//            createOneSignalLargeIcon();
+            createAllPushIconVersions();
+            createOneSignalLargeIcon();
         } catch (Exception e){
             System.out.println(e);
             wasCompleted = false;
